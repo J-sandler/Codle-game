@@ -9,3 +9,5 @@
 * Assume that the first line is an input array and that the functions will be called in the order that
 you have specified in order to produce an output. If your output matches the intended output you will be alerted
 that your answer was correct, and wrong otherwise
+
+* note that the programme will automatically update that question based on the date and time of your machine.
