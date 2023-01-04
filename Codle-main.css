@@ -1,0 +1,429 @@
+   body {background-color: white; padding: 0; margin: 0; height: 3000px;}
+
+.codle-header {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #5d90e8;
+  justify-content: space-between;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 1px -1px 3px 2px black;
+}
+
+.left-header {
+  display: grid;
+  z-index: 200;
+  width: 200px;
+  height: 60px;
+}
+
+.middle-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 200;
+  width: 400px;
+  height: 60px;
+}
+
+
+.right-header {
+  z-index: 200;
+  width: 200px;
+  height: 60px;
+}
+
+.title {
+  font-size: 45px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 550;
+  color: #5d90e8;
+  transition: all 0.25s;
+}
+
+.title span { 
+  font-size: 45px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  color: black;
+}
+
+.nav-icon {
+  color: #5d90e8;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 38px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  margin-top: 0;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.nav-icon:hover {
+  font-size: 40px;
+  color: green;
+}
+
+.nav-icon:active {
+  color: green 
+}
+
+.drop-down-menu {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.game-modes-grid {
+  margin-top: 40px;
+  display: grid;
+}
+
+.game-row-1 {
+  background-color: #5d90e8;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  right: 0;
+  justify-content: space-evenly;
+  height: 750px;
+  top: 0;
+  z-index: 200;
+}
+
+/* css pertaining to the display of game 1 */
+
+.game-1-box {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: -210px;
+}
+
+.codele-field {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  width: 700px;
+  background-color: white;
+  margin: 0px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px rgb(88, 84, 84);
+  overflow: hidden;
+}
+
+.left-codele-field {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251, 236, 236);
+  box-shadow: 0px 0px 10px 0px grey;
+}
+
+.game-1-img {
+  width: 80%;
+  height: 80%;
+}
+
+.right-codele-field {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  height: 170px;
+  width: 450px;
+}
+
+.codele-field-span {
+  color: black;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+.codele-field-span span {
+  color:#5d90e8;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 40px;
+}
+
+.codele-field-date {
+  color: black;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 200;
+  margin-left: 25px;
+  margin-top: -40px;
+}
+
+
+.codele-field-button {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 22px;
+  background-color: #5d90e8;
+  border: none;
+  padding: 11px 0px;
+  border-radius: 45px;
+  cursor: pointer;
+  color: white;
+  margin-top: 65px;
+  margin-left: 10px;
+  width: 200px;
+  height: 65px;
+  transition: all 0.3s;
+  
+
+}
+
+.codele-field-button:hover {
+  background-color: lightgreen;
+  color: black;
+  font-size: 24px;
+}
+
+.codele-field-rules {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 22px;
+  background-color: white;
+  border: 1px solid #5d90e8;
+  padding: 11px 0px;
+  border-radius: 45px;
+  cursor: pointer;
+  color: #5d90e8;
+  margin-top: 65px;
+  margin-left: 20px;
+  margin-right: 0px;
+  width: 185px;
+  height: 65px;
+  transition: all 0.3s;
+
+
+}
+
+.codele-field-rules:hover {
+  color: lightgreen;
+  border-color: lightgreen;
+  font-size: 24px;
+}
+
+.leaderboard-tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 407px;
+  box-shadow: 0px 0px 10px 1px rgb(88, 84, 84);
+  background-color: white;
+}
+
+.leaderboard-tag .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  width: 120px;
+  border-radius: 15px;
+  background-color: white;
+  margin-left: -35px;
+
+}
+
+.leaderboard-tag .button img {
+  height: auto;
+  width: 96%;
+  transition: all 0.3s;
+}
+
+.leaderboard-tag .right-button {
+  background-color: #5d90e8;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 15px;
+  margin-right: 0px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.leaderboard-tag .right-button:hover {
+  background-color: lightgreen;
+  color: black;
+  padding: 9px 17px;
+}
+
+.leaderboard-graphic:hover {
+  width: 98%;
+}
+
+.leaderboard-tag .right {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: -50px;
+}
+
+.leaderboard-tag .right span {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 23px;
+  color: white;
+  text-shadow: 1px 1px 5x rgb(189, 182, 182);
+  font-weight: 300; 
+
+}
+
+.leaderboard-tag .right span .blue {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 23px;
+}
+
+.other-games-tag {
+  display: grid;
+  grid-template-columns: 1fr 150px;
+  height: 100px;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 407px;
+  box-shadow: 0px 0px 10px 1px rgb(88, 84, 84);
+
+}
+
+.other-games-tag .right {
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 10px;
+  box-shadow: 0px 0px 10px 0px grey;;
+
+}
+
+.other-games-image {
+  width: auto;
+  height: 100px;
+  right: 0;
+}
+
+.other-games-tag .span-format {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+}
+
+
+.other-games-tag .left {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 310px;
+  background-color: white;
+  justify-content: center;
+  margin-right: -10px;
+}
+
+.other-games-tag .span-line-1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 23px;
+  margin-left: 11px;
+  margin-top: 5px;
+
+}
+
+.other-games-tag .span-line-1 .blue-text {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 23px;
+    color: #5d90e8;
+}
+
+.other-games-tag .span-line-2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 13px;
+  margin-left: 11px;
+}
+.other-games-tag button {
+  display: inline;
+  background-color: #5d90e8;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 1px 15px;
+  font-size: 17px;
+  height: 90px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-right: 12px;
+  transition: all 0.3s;
+}
+
+.other-games-tag button:hover {
+  background-color: lightgreen;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.game-box-1-right {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 50px;
+  width: 407px;
+}
+
+@media (min-width: 900px) and (max-width: 1700px) {
+  .game-1-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    margin-top: -130px;
+    justify-content: space-between;
+  }
+
+  .game-box-1-right {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 850px;
+
+  }
+}
+
+@media (max-width: 899px) {
+  .game-1-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 500px;
+      justify-content: space-between;
+      margin-top: -80px;
+    }
+  .game-box-1-right {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    height: 220px;
+
+  }
+  
+}
