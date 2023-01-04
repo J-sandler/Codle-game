@@ -1,5 +1,6 @@
 # Codle-game
-## A code themed wordle that generates new questions daily.
+
+(*A code themed wordle that generates new questions daily.*)
 ***
 To play serve Daily-codle.php on a local port, or otherwise.
 ***
